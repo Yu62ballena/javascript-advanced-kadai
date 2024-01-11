@@ -116,7 +116,7 @@ const gameOver = (id) => {
 
   setTimeout(() => {
     const result = confirm(rankCheck(score));
-  }, 0);
+  }, 10);
 
   if (result === true) {
     window.location.reload();
